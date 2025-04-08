@@ -26,6 +26,26 @@
   }
   
   .login-container input {
+    padding: 1rem;
+  }
+  
+  .login-container,
+  .form-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  input,
+  textarea {
     width: 100%;
     padding: 0.75rem;
     margin: 0.5rem 0;
@@ -39,6 +59,15 @@
     background-color: #0a7bf4;
     border: none;
     color: rgb(249, 238, 238);
+    font-size: 1rem;
+  }
+  
+  button {
+    width: 101%;
+    padding: 0.75rem;
+    background-color: #38b656;
+    border: none;
+    color: rgb(238, 230, 230);
     font-weight: bold;
     border-radius: 8px;
     cursor: pointer;
@@ -47,5 +76,7 @@
   
   .login-container button:hover {
     background-color: #0360c4;
+  button:hover {
+    background-color: #21933a;
   }
   
