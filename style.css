@@ -14,6 +14,7 @@ body {
   min-height: 100vh;
 }
 
+
 /* Navbar styles */
 .navbar {
   background-color: #007acc;
@@ -88,10 +89,6 @@ h1 {
 
 .login-container button:hover {
   background-color: #0360c4;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 body {
