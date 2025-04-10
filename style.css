@@ -91,18 +91,6 @@ h1 {
   background-color: #0360c4;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f2f5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  weight: 100%;
-  margin: 0;
-  padding: 1rem;
-}
-
 .login-container,
 .form-container {
   background-color: white;
